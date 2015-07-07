@@ -1,0 +1,30 @@
+{
+  "name": "dirsize",
+  "version": "1.0.0",
+  "description": "get directory size with emitter",
+  "main": "lib/dirsize.js",
+  "bin": {
+    "dirsize": "bin/dirsize.js"
+  },
+  "dependencies": {
+    "findit": "~2.0.0",
+    "format-io": "~0.9.6",
+    "glob": "~5.0.5"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/node-dirsize.git"
+  },
+  "keywords": [
+    "directory",
+    "size",
+    "emitter"
+  ],
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderaiser/node-dirsize/issues"
+  },
+  "homepage": "https://github.com/coderaiser/node-dirsize"
+}
