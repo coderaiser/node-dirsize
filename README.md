@@ -57,15 +57,6 @@ size.on('end', function() {
 });
 ```
 
-In case of starting example output should be similar to:
-
-```
-33%
-67%
-100%
-Copying ended up
-```
-
 ## License
 
 MIT
