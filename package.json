@@ -1,6 +1,6 @@
 {
   "name": "dirsize",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "get directory size with emitter",
   "main": "lib/dirsize.js",
   "bin": {
