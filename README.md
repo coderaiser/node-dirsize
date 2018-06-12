@@ -1,6 +1,6 @@
 # DirSize [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL]
 
-Copy files with emitter.
+Get directory size with emitter.
 
 ## Global
 
@@ -35,26 +35,25 @@ npm i dirsize --save
 ### How to use?
 
 ```js
-var dirsize         = require('dirsize'),
-    cwd             = process.cwd(),
-    from            = cwd + '/pipe-io',
-    abortOnError    = false;
-    
-size = dirsize(from);
+const dirsize = require('dirsize');
+const cwd = process.cwd();
+const from = cwd + '/pipe-io';
+const abortOnError = false;
 
-size.on('size', function(size, currentSize, filename) {
+const size = dirsize(from);
+
+size.on('size', (size, currentSize, filename) => {
     process.stdout.write('\r' + size);
 });
 
-size.on('error', function(error) {
+size.on('error', (error) => {
     console.error(percent, ' -> ', name, ':', error.message);
     
     if (abortOnError)
         cp.abort();
 });
 
-size.on('end', function() {
-});
+size.on('end', () => {});
 ```
 
 ## License

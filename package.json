@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/coderaiser/node-dirsize/issues"
   },
-  "homepage": "https://github.com/coderaiser/node-dirsize"
+  "homepage": "https://github.com/coderaiser/node-dirsize",
+  "engines": {
+    "node": ">=4"
+  }
 }
