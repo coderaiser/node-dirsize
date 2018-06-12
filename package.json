@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "findit": "~2.0.0",
-    "format-io": "~0.9.6",
+    "format-io": "^1.0.1",
     "glob": "^7.1.0"
   },
   "scripts": {},
